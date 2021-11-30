@@ -61,5 +61,8 @@
     <None Include="LabeledExpr.g4" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="gen.bat" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
