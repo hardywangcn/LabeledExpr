@@ -14,7 +14,7 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            /*
+            
             StreamReader input_src;
             if (args.Length > 0)
             { 
@@ -25,12 +25,13 @@ namespace ConsoleApp1
                 Console.WriteLine("Enter expressions to evaluate");
                 input_src = new StreamReader(Console.OpenStandardInput(), Console.InputEncoding);
             }
-            */
-
-            //AntlrInputStream input_stream = new AntlrInputStream(input_src);
             
-            string txt = "a=3; b=9; a+b;";
-            AntlrInputStream input_stream = new AntlrInputStream(txt);
+
+            AntlrInputStream input_stream = new AntlrInputStream(input_src);
+            
+            
+            
+            //AntlrInputStream input_stream = new AntlrInputStream("3+5");
             LabeledExprLexer lexer = new LabeledExprLexer(input_stream);
             CommonTokenStream tokens = new CommonTokenStream(lexer);
             LabeledExprParser parser = new LabeledExprParser(tokens);

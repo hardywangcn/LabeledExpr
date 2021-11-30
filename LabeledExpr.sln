@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31729.503
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LabeledExpr", "ConsoleApp1\LabeledExpr.csproj", "{BAAE8904-634F-4AAA-8422-38154A3A7EDD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LabeledExpr", "LabeledExpr\LabeledExpr.csproj", "{BAAE8904-634F-4AAA-8422-38154A3A7EDD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
