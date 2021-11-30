@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LabeledExpr", "ConsoleApp1\LabeledExpr.csproj", "{BAAE8904-634F-4AAA-8422-38154A3A7EDD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BAAE8904-634F-4AAA-8422-38154A3A7EDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAAE8904-634F-4AAA-8422-38154A3A7EDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAAE8904-634F-4AAA-8422-38154A3A7EDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAAE8904-634F-4AAA-8422-38154A3A7EDD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8FA866A6-E67C-44EF-A073-DD0D279A7A53}
+	EndGlobalSection
+EndGlobal
